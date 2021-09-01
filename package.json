@@ -1,14 +1,16 @@
 {
-  "name": "markdownlint-rules-flatiron-lesson",
+  "name": "@learn-co-curriculum/markdownlint-rules-flatiron-lesson",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "rules/index.js",
   "scripts": {
     "test": "jest",
     "prepare": "husky install",
     "lint": "eslint . --cache --fix"
   },
-  "keywords": [],
+  "keywords": [
+    "markdownlint-rule"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
