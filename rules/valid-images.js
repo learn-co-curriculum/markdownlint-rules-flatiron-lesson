@@ -13,7 +13,7 @@ module.exports = {
             if (!value.match(/^(https?:)/)) {
               onError({
                 lineNumber: image.lineNumber,
-                detail: `Use an absolute URL`,
+                detail: "Use an absolute URL",
                 context: image.line,
               });
             }
