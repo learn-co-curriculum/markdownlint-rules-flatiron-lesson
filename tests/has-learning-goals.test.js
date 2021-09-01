@@ -12,7 +12,7 @@ test("reports when a document does not include a ## Learning Goals heading", () 
     {
       lineNumber: 2,
       ruleNames: ["has-learning-goals"],
-      ruleDescription: "Rule that reports a missing ## Learning Goals heading",
+      ruleDescription: "Missing ## Learning Goals heading",
       ruleInformation: null,
       errorDetail: "Add a ## Learning Goals section",
       errorContext: null,

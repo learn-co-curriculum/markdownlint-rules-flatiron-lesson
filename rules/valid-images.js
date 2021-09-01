@@ -2,7 +2,7 @@ const { flat } = require("../lib/helpers");
 
 module.exports = {
   names: ["valid-images"],
-  description: "Rule that reports images with invalid URLs",
+  description: "Invalid image URL",
   tags: ["image"],
   function: function rule(params, onError) {
     flat(params.tokens)
@@ -13,7 +13,7 @@ module.exports = {
             if (!value.match(/^(https?:)/)) {
               onError({
                 lineNumber: image.lineNumber,
-                detail: "Use an absolute URL",
+                detail: "Upload the image and use an absolute URL",
                 context: image.line,
               });
             }

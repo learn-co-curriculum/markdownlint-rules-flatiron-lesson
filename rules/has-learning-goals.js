@@ -1,6 +1,6 @@
 module.exports = {
   names: ["has-learning-goals"],
-  description: "Rule that reports a missing ## Learning Goals heading",
+  description: "Missing ## Learning Goals heading",
   tags: ["heading"],
   function: function rule(params, onError) {
     const learningGoalsHeading = params.tokens.find(function filterToken(
