@@ -30,7 +30,7 @@ test("reports when a document has non-inclusive language", () => {
       },
     },
     {
-      lineNumber: 5,
+      lineNumber: 7,
       ruleNames: ["inclusive-language"],
       ruleDescription: "Non-inclusive language",
       ruleInformation: null,
@@ -39,7 +39,7 @@ test("reports when a document has non-inclusive language", () => {
       errorContext: "Whitelist",
       errorRange: [4, 9],
       fixInfo: {
-        lineNumber: 5,
+        lineNumber: 7,
         editColumn: 4,
         deleteCount: 9,
         insertText: "Allow/block or allowlist/blocklist",
