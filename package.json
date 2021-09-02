@@ -1,7 +1,17 @@
 {
   "name": "@learn-co-curriculum/markdownlint-rules-flatiron-lesson",
   "version": "0.1.0",
-  "description": "",
+  "description": "Custom `markdownlint` rules for the Flatiron Software Engineering curriculum.",
+  "homepage": "https://github.com/learn-co-curriculum/markdownlint-rules-flatiron-lesson",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/markdownlint-rules-flatiron-lesson/issues"
+  },
+  "author": "Ian Hollander (https://github.com/ihollander)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/learn-co-curriculum/markdownlint-rules-flatiron-lesson.git"
+  },
   "main": "rules/index.js",
   "scripts": {
     "test": "jest",
@@ -11,8 +21,6 @@
   "keywords": [
     "markdownlint-rule"
   ],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
