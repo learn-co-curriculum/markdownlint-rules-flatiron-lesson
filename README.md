@@ -3,6 +3,19 @@
 Custom linting rules for [`markdownlint`][markdownlint] for the Flatiron
 Software Engineering curriculum.
 
+## Custom Rules
+
+| Name                 | Description                                                                                            |
+| -------------------- | ------------------------------------------------------------------------------------------------------ |
+| `has-learning-goals` | Checks if a lesson has a `## Learning Goals` heading                                                   |
+| `inclusive-language` | Checks words in the lesson using a dictionary based on the [Inclusive Language Style Guide][inclusive] |
+| `valid-images`       | Checks if images in a lesson use an absolute URL (beginning with `http` or `https`)                    |
+
+[markdownlint]: https://github.com/DavidAnson/markdownlint
+[inclusive]: https://docs.google.com/document/d/1QK__2vmuLcAnlat8OIVlZ4T0TDsoqpuayPjij2ID1fY/edit
+[extension]: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+[markdownlint-cli]: https://github.com/igorshubovych/markdownlint-cli
+
 ## Usage
 
 All of Flatiron's lessons use Markdown as the format for written content. To
@@ -76,19 +89,6 @@ specific rules:
 
    ./README.md:2 has-learning-goals Missing ## Learning Goals heading [Add a ## Learning Goals section]
    ```
-
-## Custom Rules
-
-| Name                 | Description                                                                                            |
-| -------------------- | ------------------------------------------------------------------------------------------------------ |
-| `has-learning-goals` | Checks if a lesson has a `## Learning Goals` heading                                                   |
-| `inclusive-language` | Checks words in the lesson using a dictionary based on the [Inclusive Language Style Guide][inclusive] |
-| `valid-images`       | Checks if images in a lesson use an absolute URL (beginning with `http` or `https`)                    |
-
-[markdownlint]: https://github.com/DavidAnson/markdownlint
-[inclusive]: https://docs.google.com/document/d/1QK__2vmuLcAnlat8OIVlZ4T0TDsoqpuayPjij2ID1fY/edit
-[extension]: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
-[markdownlint-cli]: https://github.com/igorshubovych/markdownlint-cli
 
 ## Contributing
 
