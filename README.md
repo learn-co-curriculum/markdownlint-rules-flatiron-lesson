@@ -36,22 +36,22 @@ Assuming you have the [`markdownlint` VSCode extension][extension] installed:
    }
    ```
 
-4. To disable specific rules, add a `markdownlint.config` section in the
-   configuration file, and use the rule names specified below to configure
-   specific rules:
-
-   ```json
-   {
-     "markdownlint.config": {
-       "has-learning-goals": false
-     }
-   }
-   ```
-
 The `markdownlint` extension should now highlight any formatting issues based on
 this configuration:
 
 ![markdownlint example](./images/markdownlint-example.png)
+
+To disable specific rules, add a `markdownlint.config` section in the your
+VSCode configuration file, and use the rule names specified below to configure
+specific rules:
+
+```json
+{
+  "markdownlint.config": {
+    "has-learning-goals": false
+  }
+}
+```
 
 ### Manual Checks
 
