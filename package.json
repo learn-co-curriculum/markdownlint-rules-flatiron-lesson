@@ -1,6 +1,6 @@
 {
   "name": "@learn-co-curriculum/markdownlint-rules-flatiron-lesson",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Custom `markdownlint` rules for the Flatiron Software Engineering curriculum.",
   "homepage": "https://github.com/learn-co-curriculum/markdownlint-rules-flatiron-lesson",
   "bugs": {
